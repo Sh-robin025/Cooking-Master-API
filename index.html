@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- external style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="container">
+        <nav class="container navbar fixed-top navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <h1><a class="navbar-brand title" href="#">Cooking Master</a></h1>
+                <div class="collapse navbar-collapse intro" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="">Recipes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <div id="food-detail" class="container">
+
+        </div>
+        <div id="foods-item">
+            <form class="d-flex justify-content-center">
+                <input id="input" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button id="search" class="btn btn-outline-success" type="button"><i class="fas fa-search"></i>  Search</button>
+            </form>
+
+            <div id="search-for" class="text-center mt-5">
+
+            </div>
+            <div id="food-item" class="container">
+
+            </div>
+        </div>
+    </main>
+
+
+    <script src="https://kit.fontawesome.com/6cd91c7c65.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+body{
+    background-color: #edd263;
+}
+header{
+    margin-bottom: 100px;
+}
+.navbar{
+    background-color: #edd263;
+}
+.title{
+    font-size: xx-large;
+    font-weight: 800;
+}
+.intro ul{
+    margin-left: auto;
+    font-size: large;
+    font-weight: 700;
+    position: relative;
+    left: 250px;
+}
+.intro ul li{
+    margin: 0 20px;
+}
+form{
+    width: 50%;
+    margin: 20px auto;
+}
+form button{
+    width: 150px;
+    height: 40px;
+}
+#food-item{
+    margin: 50px auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+.item-card{
+    padding-bottom: 15px;
+    /* border: black 2px solid; */
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 13px 6px -6px #777;
+}
+#food-item img{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.detail{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 13px 6px -6px #777;
+    width: 600px;
+    margin: 0 auto;
+}
+.detail img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.detail button{
+    width: 200px;
+    height: 60px;
+    margin: 10px 200px;
+}
+.about-food{
+    margin-left: 20px;
+}
+.about-food h6{
+    margin-bottom: 10px;
+}
+p i{
+    margin: 5px 10px;
+}
