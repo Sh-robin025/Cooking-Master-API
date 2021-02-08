@@ -61,8 +61,10 @@ form button{
 }
 .detail button{
     width: 200px;
-    height: 60px;
+    height: 50px;
     margin: 10px 200px;
+    font-size: x-large;
+    font-weight: 600;
 }
 .about-food{
     margin-left: 20px;
