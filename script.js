@@ -10,11 +10,10 @@ const searchFor = () => {
             .then(data => {
                 document.getElementById("search-for").innerHTML =
                     `<h2>Search result for "${input}" :</h2>`;
-                // document.getElementById("food-item").style.display ="block"
                 if (data.meals === null) {
                     document.getElementById("search-for").innerHTML =
                         `<h1>There are no search result for "${input}",<br>Try again.</h1>`
-                    // document.getElementById("food-item").style.display = "none"
+                    document.getElementById("food-item").innerHTML = "";
                 } else {
                     document.getElementById("food-item").innerHTML = data.meals.map((meal) => `
                         <div class="item-card" onclick = "mealDetails('${meal.idMeal}')">
