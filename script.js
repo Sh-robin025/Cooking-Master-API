@@ -1,7 +1,8 @@
 
-// addEventListener on search button and through conditions
+// search button onclick and through different conditions
 
-document.getElementById("search").addEventListener('click', function () {
+
+const searchFor = () => {
     const input = document.getElementById("input").value;
     if (input.trim()) {
         fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${input}`)
@@ -27,7 +28,7 @@ document.getElementById("search").addEventListener('click', function () {
     } else {
         alert("Pls input a food name.")
     }
-})
+}
 
 // every single food card onclick function
 
@@ -64,7 +65,7 @@ const mealDetails = idMeal => {
         })
 }
 
-function goBack() {
+const goBack = () => {
     document.getElementById("food-detail").style.display = "none";
     document.getElementById("foods-item").style.display = "block";
 }
